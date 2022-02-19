@@ -1,5 +1,5 @@
 import './App.css';
-
+import Mensaje from './componentes/Mensaje'
 function App() {
   return (
     <div className="App">
@@ -10,6 +10,8 @@ function App() {
           <p>
             mi primer clase asdasdasdasdasdasd
           </p>
+          <hr/>
+          <Mensaje />
         </div>
       </div>
     </div>
