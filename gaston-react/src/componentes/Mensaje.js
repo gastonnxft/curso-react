@@ -1,7 +1,7 @@
 import './Mensaje.css'
 
 function Mensaje(props){
-    let {msj, fondo} = props
+    let {msj, fondo} = props.match.params
     return ( 
         <div className='Mensaje'>
             <div className='jumbotron' style = {{backgroundColor: fondo}}>
